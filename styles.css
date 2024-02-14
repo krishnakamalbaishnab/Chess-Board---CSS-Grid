@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #646726, #536352);
+    
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid orange;
+    border-style: solid;
+    border-width: 10px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.white {
+    height: 100px;
+    width: 100px;
+    background-color: #f0d9b5;
+}
+
+.black {
+    height: 100px;
+    width: 100px;
+    background-color: #b58863;
+}
+
